@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --BrightYellow: hsl(71, 73%, 54%);
+  --LightGray: hsl(204, 43%, 93%);
+  --GrayishBlue: hsl(218, 22%, 67%);
+  --CyanGreyish: #4abebd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  display: grid;
+  place-content: center;
+  background: var(--LightGray);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--Cyan);
+}
+
+h2,
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 1.9rem;
+  padding: 1rem 0;
+  border: none;
+  border-radius: 0.35rem;
+  background-color: var(--BrightYellow);
+  color: #fff;
+  box-shadow: 1px 4px 10px 1px #00000033;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.wrapper {
+  max-width: 22rem;
+  box-shadow: 0 0 14px 1px #00000024;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+[class|="container"] {
+  padding: 2.3rem;
+  color: #fff;
+}
+
+.container-1 {
+  background-color: #fff;
+}
+
+.container-1 h2 {
+  color: var(--BrightYellow);
+}
+
+.container-1 p {
+  color: var(--GrayishBlue);
+  line-height: 1.5rem;
+}
+
+.container-2 {
+  background-color: var(--Cyan);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+
+.price h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.container-2 span {
+  color: var(--LightGray);
+  opacity: 0.7;
+}
+
+.container-3 {
+  background-color: var(--CyanGreyish);
+}
+
+.container-3 ul {
+  list-style: none;
+  color: var(--LightGray);
+  line-height: 1.35rem;
+  opacity: 0.75;
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .container-1 {
+    grid-column: 1 / span 2;
+  }
+}
