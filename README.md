@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/single-price-grid-component-qad61cs4hU)
-- Live Site URL: [abulhashim.github.io/Stats-preview-card](https://abulhashim.github.io/Single-Price-Grid-Component/)
+- Solution URL: [frontendmentor.io/solutions/single-price-grid-component-qad61cs4hU](https://www.frontendmentor.io/solutions/single-price-grid-component-qad61cs4hU)
+- Live Site URL: [abulhashim.github.io/Single-Price-Grid-Component/](https://abulhashim.github.io/Single-Price-Grid-Component/)
 
 ## My process
 
